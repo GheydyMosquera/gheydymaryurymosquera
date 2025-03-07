@@ -3,12 +3,12 @@ Algoritmo CINCO
 	Leer sueldo
 	si sueldo<=500000 Entonces 
 	finsi 
-	Leer 
+	descuento<=sueldo *0.15
 	si sueldo<-1000000 
 		
-		descuento<=sueldo * 0.15 
+		
     sino
-		descuento=sueldo * 0.18 
+		descuento<=sueldo * 0.18 
 		fin si
 	sueldo_total=descuento_sueldo
 	Escribir "descuento aplicado",descuento
